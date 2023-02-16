@@ -1,0 +1,11 @@
+p{
+    color: orange;
+    font-size: 20px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.cursive{
+    font-family: cursive;
+}

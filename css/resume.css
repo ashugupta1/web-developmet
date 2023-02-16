@@ -1,0 +1,59 @@
+/* header */
+#body-head{
+    height: 70vh;
+    background-image: url(../images/wall.jpg);
+    /* background-image: url(../images/1577945374760.jpg); */
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.horizontal{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* list item in navigations */
+.horizontal li{
+    font-size: 30px;
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+/* in header --> navigation --> anchor tag */
+.horizontal li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* hovwer */
+.horizontal li a:hover{
+    color: black;
+    border-bottom: 1px solid wheat;
+    transition: color 0.5s;
+}
+
+/* text center */
+.text-center{
+    text-align: center;
+    text-transform: capitalize ;
+}
+.name{
+    text-align: center;
+    font-size: 100px;
+}
+
+/* social icons */
+#size {
+    display: inline-block;
+}
+
+#my-name{
+    font-size: 60px;
+    margin: 0px 10px 10px 0px;
+}
