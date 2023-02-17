@@ -1,0 +1,25 @@
+#container{
+    
+    height: 70vh;
+    width: 70vw;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#container{
+    height: 10vh;
+    width: 30vw;
+}
+
+#div-1{
+    background-color: red;
+}
+#div-2{
+    background-color: green;
+}
+#div-3{
+    background-color: blue;
+}
+#div-4{
+    background-color: orange;
+}
