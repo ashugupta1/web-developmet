@@ -26,16 +26,17 @@
 
 /* in header --> navigation --> anchor tag */
 .horizontal li a{
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 10px;
 }
 
 /* navigation hovwer  */
 .horizontal li a:hover{
-    color: black;
+    color: burlywood;
     border-bottom: 1px solid wheat;
     transition: color 0.5s;
+    text-decoration: none;
 }
 
 /* text center */
@@ -88,7 +89,7 @@
 /* social icons hover */
 .social-icons li a img:hover{
     box-shadow: 0px 0px 6px 4px rgba(230, 187, 187, 0.3);
-}
+} 
 
 /* about section ---> */
 
@@ -112,7 +113,7 @@
     width: 100%;
     border-radius: 50%;
 }
-/* pa */
+/* paragraph */
 #para{
     color: black;
     text-align: center;
@@ -122,17 +123,109 @@
     padding: 20px 300px 30px 300px;
 }
 
-.skills-display{
+/* section for skills */
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center; */
+}
+
+/* section:nth-child(2n+1){
+    background-color: aliceblue;
+} */
+
+/* section:nth-child(2n){
+    background-color: white;
+} */
+
+#skill{
+    
+}
+#header-name{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#skills-display{
     width: 70%;
-    height: 100px
+    /* height: 100px; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.mb-blue{
+    background-color: #2857a4;
+}
+.mb-voilet{
+    background-color: #9328a4;
+}
+.mb-green{
+    background-color: #28a462;
+}
+.mb-yellow{
+    background-color: #a48d28;
+}
+.mb-red{
+    background-color: #a42839;
+}
+.mb-sky{
+    background-color: #289aa4;
+}
+.mb-voilet-2{
+    background-color: #5a28a4;
+}
+
+/* skill-progress */
+.skill-progress{
+    width: 7rem;
+    height: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: lightgray;
+    border-radius: 0.5rem;
     border: 2px solid black;
 }
 
-/* section skills */
-/* #skill{
-    color: black;
-    font-weight: bold;
-    font-family: initial;
-    font-size: xx-large;
-    text-align: center;
-} */
+.skill-name span{
+    margin:  30px ;
+}
+
+/* eighty-five-percent */
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+.seventy-five-percent{
+    width: 75%;
+    height: inherit;
+}
+.sixty-five-percent{
+    width: 65%;
+    height: inherit;
+}
+.fifty-five-percent{
+    width: 55%;
+    height: inherit;
+}
+.fourty-five-percent{
+    width: 45%;
+    height: inherit;
+}
+.thirty-five-percent{
+    width: 35%;
+    height: inherit;
+}
+.twenty-five-percent{
+    width: 25%;
+    height: inherit;
+}
+.fifteen-percent{
+    width: 15%;
+    height: inherit;
+}
